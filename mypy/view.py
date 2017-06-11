@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 def hello(request):
     # return HttpResponse("Hello Django ! ")
-    return render(request, 'hello.html', {'name': 'Perseus'})
+    return render(request, 'hello.html', {'name': 'Perseus of Github'})
