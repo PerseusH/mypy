@@ -25,7 +25,8 @@ SECRET_KEY = 'nz13uy9q)o9+_*%7*ig+6$*+64g9e1l4oojncpgrszu7=t!f8='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# For modifying web domain name
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
